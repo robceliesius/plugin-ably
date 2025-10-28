@@ -1,0 +1,27 @@
+{
+  "name": "plugin-ably",
+  "version": "1.0.0",
+  "description": "Ably realtime messaging and Spaces collaboration plugin for WeWeb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/plugin-ably"
+  },
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "dependencies": {
+    "ably": "^2.3.0",
+    "@ably/spaces": "^0.4.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-vue": "7.0.0-beta.4",
+    "prettier": "^2.1.2"
+  }
+}
+
